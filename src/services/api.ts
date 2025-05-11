@@ -13,11 +13,11 @@ export function createAPI({ baseURL, token }: CreateAPIOptions) {
 }
 
 export const apiContatos = createAPI({
-  baseURL: process.env.NEXT_PUBLIC_API_CONTATOS!,
-  token: process.env.NEXT_PUBLIC_TOKEN_CONTATOS,
+  baseURL: process.env.API_CONTATOS!,
+  token: process.env.TOKEN_CONTATOS,
 });
 
 export const apiContratos = createAPI({
-  baseURL: process.env.NEXT_PUBLIC_API_CONTRATOS!,
-  token: process.env.NEXT_PUBLIC_TOKEN_CONTRATOS,
+  baseURL: process.env.API_CONTRATOS!,
+  token: process.env.TOKEN_CONTRATOS,
 });
