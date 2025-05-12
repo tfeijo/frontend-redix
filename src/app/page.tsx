@@ -8,7 +8,7 @@ export default function Home() {
 
       <nav>
         <Link href="/contatos/completo" className="text-blue-600 underline">
-          Acessar Contatos Integrados
+          Acessar Contatos
         </Link>
       </nav>
     </main>
