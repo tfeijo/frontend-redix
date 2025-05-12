@@ -2,7 +2,12 @@ import './globals.css';
 import Header from '@/components/Header';
 
 export const metadata = {
-  title: 'Sistema C',
+  title: 'Sistema de Contatos Integrados',
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
+  },
   description: 'Visualização integrada de contatos e contratos',
 };
 
