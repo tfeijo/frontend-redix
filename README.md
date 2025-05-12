@@ -24,11 +24,11 @@ Este frontend foi desenvolvido com Next.js para integrar e exibir informações 
 Crie um arquivo `.env.local` com:
 
 ```env
-NEXT_PUBLIC_API_CONTATOS=http://localhost:3001
-NEXT_PUBLIC_API_CONTRATOS=http://localhost:3002
+API_CONTATOS=http://localhost:3001
+API_CONTRATOS=http://localhost:3002
 
-NEXT_PUBLIC_TOKEN_CONTATOS=seu_token_contatos
-NEXT_PUBLIC_TOKEN_CONTRATOS=seu_token_contratos
+TOKEN_CONTATOS=seu_token_contatos
+TOKEN_CONTRATOS=seu_token_contratos
 ```
 
 ## 📁 Estrutura do Projeto
@@ -53,8 +53,8 @@ npm install
 npm run dev
 ```
 
-Acesse [http://localhost:3000](http://localhost:3000)
-
 ## 📄 Licença
 
 Este projeto está sob a licença MIT.
+
+Desenvolvido por Thiago Feijó
